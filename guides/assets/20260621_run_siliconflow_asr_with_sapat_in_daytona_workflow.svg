@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="560" viewBox="0 0 1120 560" role="img" aria-labelledby="title desc">
+  <title id="title">SiliconFlow ASR workflow with Sapat in Daytona</title>
+  <desc id="desc">A Daytona workspace prepares media, Sapat routes it to a SiliconFlow provider, SiliconFlow returns transcript text, and the result is reviewed.</desc>
+  <rect width="1120" height="560" fill="#f7fafc"/>
+  <rect x="54" y="86" width="250" height="118" rx="10" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+  <text x="179" y="129" font-family="Arial, sans-serif" font-size="23" text-anchor="middle" fill="#111827">Daytona workspace</text>
+  <text x="179" y="161" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#4b5563">Python, ffmpeg, clean env</text>
+  <rect x="435" y="86" width="250" height="118" rx="10" fill="#ffffff" stroke="#0f766e" stroke-width="2"/>
+  <text x="560" y="129" font-family="Arial, sans-serif" font-size="23" text-anchor="middle" fill="#115e59">Sapat provider</text>
+  <text x="560" y="161" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#4b5563">file + model multipart form</text>
+  <rect x="816" y="86" width="250" height="118" rx="10" fill="#ffffff" stroke="#4338ca" stroke-width="2"/>
+  <text x="941" y="129" font-family="Arial, sans-serif" font-size="23" text-anchor="middle" fill="#312e81">SiliconFlow ASR</text>
+  <text x="941" y="161" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#4b5563">SenseVoice or TeleSpeech</text>
+  <rect x="246" y="338" width="250" height="118" rx="10" fill="#ffffff" stroke="#b45309" stroke-width="2"/>
+  <text x="371" y="381" font-family="Arial, sans-serif" font-size="23" text-anchor="middle" fill="#78350f">Transcript output</text>
+  <text x="371" y="413" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#4b5563">Review and handoff</text>
+  <rect x="626" y="338" width="250" height="118" rx="10" fill="#ffffff" stroke="#be123c" stroke-width="2"/>
+  <text x="751" y="381" font-family="Arial, sans-serif" font-size="23" text-anchor="middle" fill="#881337">Validation loop</text>
+  <text x="751" y="413" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#4b5563">Mock tests, sample clips</text>
+  <path d="M304 145 H435" stroke="#334155" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M685 145 H816" stroke="#334155" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M941 204 C930 292 848 322 751 338" stroke="#334155" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M626 397 H496" stroke="#334155" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M371 338 C278 305 212 251 179 204" stroke="#334155" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2 L10 6 L2 10 Z" fill="#334155"/>
+    </marker>
+  </defs>
+</svg>
